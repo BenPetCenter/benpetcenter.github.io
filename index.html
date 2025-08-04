@@ -1,52 +1,43 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Ben Pet Center</title>
   <style>
     body {
-      background-color: #0e2a47; /* azul escuro alegre e vivo */
-      background-image: url("data:image/svg+xml;utf8,
-        <svg xmlns='http://www.w3.org/2000/svg' width='100' height='100'>
-          <text x='10' y='30' font-size='28'>🐾</text>
-          <text x='50' y='30' font-size='28'>🦴</text>
-          <text x='10' y='70' font-size='24'>💛</text>
-        </svg>");
+      background-image: url("fundopet.jpg");
+      background-size: cover;
       background-repeat: repeat;
-      background-size: 100px 100px;
-      color: #ffffff;
-      font-family: 'Comic Sans MS', cursive, sans-serif;
+      background-attachment: fixed;
+      color: #FFFFFF;
+      font-family: 'Baloo 2';
       text-align: center;
       margin: 0;
       padding: 0;
     }
-
     .container {
       max-width: 500px;
       margin: 0 auto;
       padding: 20px;
-      background-color: transparent;
+      background-color: transparent
       border-radius: 20px;
     }
-
     .profile-img {
       width: 200px;
       border-radius: 20px;
       margin-top: 30px;
     }
-
     h1 {
       font-size: 32px;
       margin: 20px 0 10px;
-      font-family: 'Pacifico', cursive;
+      font-family: 'Baloo 2';
     }
-
     .welcome {
       font-size: 18px;
       margin-bottom: 30px;
+      color: #000000; /* frase em preto */
     }
-
     .link-button {
       display: block;
       background-color: #FF8C00;
@@ -58,22 +49,21 @@
       font-size: 20px;
       transition: transform 0.2s, box-shadow 0.2s;
     }
-
     .link-button:hover {
       transform: scale(1.05);
-      box-shadow: 0 0 15px rgba(255, 140, 0, 0.6);
+      box-shadow: 0 0 15px rgba(255,140,0,0.6);
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <img src="benpetcenter-logo.jpg.jpg" alt="Ben Pet Center Logo" class="profile-img" />
+    <img src="benpetcenter-logo.jpg.jpg" alt="Ben Pet Center Logo" class="profile-img">
     <h1>Ben Pet Center</h1>
-    <p class="welcome">Bem-vindo ao Ben Pet Center!<br />Tudo para o seu pet com amor e qualidade.</p>
+    <p class="welcome">Bem-vindo ao Ben Pet Center!<br> Tudo para o seu pet com amor e qualidade.</p>
 
     <a href="https://www.instagram.com/benpetcenter?igsh=MXdpd3V0bHI3OXdpYQ%3D%3D&utm_source=qr" class="link-button">Nosso Instagram 🐾</a>
-    <a href="https://wa.me/5562981736647" class="link-button" target="_blank">Fale com a gente no WhatsApp</a>
-    <a href="LINK_CATALOGO_AQUI" class="link-button">Veja nosso Catálogo de Produtos</a>
+    <a href="https://wa.me/5562981736647" class="link-button">Fale com a gente no WhatsApp</a>
+    <a href="LINK_CATALOGO_AQUI" class="link-button">Acesse nosso Catálogo</a>
   </div>
 </body>
 </html>

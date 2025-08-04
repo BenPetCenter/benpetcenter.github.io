@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ben Pet Center</title>
+  <style>
+    body {
+      background-color: #044677;
+      color: #FFFFFF;
+      font-family: 'Comic Sans MS', cursive, sans-serif; /* manuscrito e fofo */
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 500px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .profile-img {
+      width: 200px;
+      border-radius: 20px;
+      margin-top: 30px;
+    }
+    h1 {
+      font-size: 32px;
+      margin: 20px 0 10px;
+      font-family: 'Pacifico', cursive;
+    }
+    .welcome {
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+    .link-button {
+      display: block;
+      background-color: #FF8C00;
+      color: #FFFFFF;
+      text-decoration: none;
+      padding: 16px;
+      margin: 15px 0;
+      border-radius: 40px;
+      font-size: 20px;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .link-button:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 15px rgba(255,140,0,0.6);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="SUA_IMAGEM_AQUI.png" alt="Ben Pet Center Logo" class="profile-img">
+    <h1>Ben Pet Center</h1>
+    <p class="welcome">Bem-vindo ao Ben Pet Center!<br> Tudo para o seu pet com amor e qualidade.</p>
+
+    <a href="https://www.instagram.com/benpetcenter?igsh=MXdpd3V0bHI3OXdpYQ%3D%3D&utm_source=qr" class="link-button">Nosso Instagram 🐾</a>
+    <a href="wa.me/5562981736647" class="link-button">Fale com a gente no WhatsApp</a>
+    <a href="LINK_CATALOGO_AQUI" class="link-button">Veja nosso Catálogo de Produtos</a>
+  </div>
+</body>
+</html>

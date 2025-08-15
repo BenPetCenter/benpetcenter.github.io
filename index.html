@@ -20,6 +20,7 @@
       margin: 0;
       padding: 0;
     }
+
     .container {
       max-width: 500px;
       margin: 0 auto;
@@ -27,11 +28,13 @@
       background-color: transparent;
       border-radius: 20px;
     }
+
     .profile-img {
       width: 200px;
       border-radius: 20px;
       margin-top: 30px;
     }
+
     h1 {
       font-size: 32px;
       margin: 20px 0 10px;
@@ -39,12 +42,17 @@
       color: #000000;
       font-weight: bold;
     }
+
     .welcome {
-      font-size: 18px;
+      font-size: 22px;
       margin-bottom: 30px;
       color: #ff8c00;
       font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
     }
+
     .link-button {
       display: block;
       background-color: #FF8C00;
@@ -57,9 +65,17 @@
       transition: transform 0.2s, box-shadow 0.2s;
       font-family: 'Baloo 2', cursive;
     }
+
     .link-button:hover {
       transform: scale(1.05);
       box-shadow: 0 0 15px rgba(255,140,0,0.6);
+    }
+
+    /* Responsividade: aumenta o tamanho da fonte em celulares */
+    @media (max-width: 600px) {
+      .welcome {
+        font-size: 26px;
+      }
     }
   </style>
 </head>
